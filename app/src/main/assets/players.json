@@ -1,0 +1,87 @@
+{
+  "name": "Barcelona",
+  "round": "Playing Round of 16",
+  "players": [
+    {
+      "type": "Goalkeepers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Goalkeepers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Goalkeepers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Goalkeepers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Defenders",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Defenders",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Defenders",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Defenders",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Midfildiers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Midfildiers",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Forwards",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Forwards",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    },
+    {
+      "type": "Coach",
+      "name": "Player name",
+      "country": "Country ",
+      "number": 24
+    }
+  ],
+  "playersB": [
+
+  ]
+}

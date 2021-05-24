@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="UclTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#151573</item>
+        <item name="colorPrimaryDark">#0A0A61</item>
+        <item name="colorAccent">#5AF7DC</item>
+        <item name="primaryTextColor">#ffffff</item>
+        <item name="secondaryTextColor">#363636</item>
+        <item name="customBackground">#000040</item>
+        <item name="headerImage">@drawable/ucl_header</item>
+    </style>
+
+    <!--  -->
+    <style name="UelTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">#2C2C2E</item>
+        <item name="colorPrimaryDark">#1C1C1E</item>
+        <item name="colorAccent">#FF6900</item>
+        <item name="primaryTextColor">#ffffff</item>
+        <item name="secondaryTextColor">#363636</item>
+        <item name="customBackground">#000000</item>
+        <item name="headerImage">@drawable/uel_header</item>
+    </style>
+
+    <style name="header_text">
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="normal_text">
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="bold_text">
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!--    <style name="Activity.Fullscreen.Theme" parent="AppTheme">-->
+    <!--        <item name="android:windowTranslucentStatus">true</item>-->
+    <!--        <item name="android:windowTranslucentNavigation">true</item>-->
+    <!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+    <!--    </style>-->
+
+</resources>
