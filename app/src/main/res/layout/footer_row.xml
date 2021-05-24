@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="player"
+            type="com.uefa.android.test.model.PlayerUiModel" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/customBackground">
+
+        <TextView
+            android:id="@+id/playerNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:paddingStart="@dimen/material_small"
+            android:paddingTop="@dimen/material_normal"
+            android:paddingBottom="@dimen/material_large"
+            android:text="@{player.listB}"
+            android:textColor="?attr/primaryTextColor"
+            tools:text="*Player list B" />
+    </FrameLayout>
+
+</layout>
